@@ -1,0 +1,142 @@
+/* global */
+.body {
+    padding: none;
+    margin: none;
+}
+
+#app {
+display: grid;
+padding: none;
+margin: none;
+
+}
+/* navbar */
+.container1 {
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    gap: 1em;
+    justify-content: center;
+    height: 140px;
+
+}
+
+.logotipo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    transition: .3s;
+    background-color: rgb(61, 61, 61);
+}
+form {
+    margin-right: 20px;
+}
+
+.redes {
+    background-color: rgb(61, 61, 61);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);  
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.all {
+    margin-left: 1em;
+    border-radius: 50%;
+    background-Color: '#333';
+    color :'white';
+    border :'white';
+    opacity: 50%;
+}
+.all:hover {
+    transform: scale(1.05);
+    opacity: 100;
+    transition: .6s;
+}
+/* profile */
+/* ------------------------------------------------------------------ */
+.profile {
+    min-height: 300px;
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    transition: .3s;
+  }
+  .profile:hover {
+    transform: scale(1.03);
+    transition: .7s;
+  }
+  .IMG {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+  }
+  .btmSEGIOR {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .datos .col-3 {
+    display: flex;
+  }
+  #profileImage {
+    border-radius: 50%;
+}
+ul {
+    list-style: none;
+}
+.name {
+    color: crimson;
+}
+.name .nickname {
+    color: black;
+}
+/* ------------------------------------------------------------------ */
+  
+ /* post */
+.P {
+    margin-top: 2em;   
+}
+.Posted {
+    column-gap: 2em;
+    justify-content: space-between;
+}
+#post {
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    
+    transition: .3s;
+}
+#post:hover {
+    transform: scale(1.03);
+    transition: .7s;
+}
+#aboutme {
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    
+    transition: .3s;
+}
+#aboutme:hover {
+    transform: scale(1.03);
+    transition: .7s;
+}
+/* ------------------------------------------------------------------ */
+  
+.MG {
+    display: flex;
+    justify-content: space-between;
+} 
+ /* button Like */
+#btnMG {
+background: none;
+width: 40px;
+border: none;
+}
+.icono-destacado {
+    color: red;
+}
+
+
+
